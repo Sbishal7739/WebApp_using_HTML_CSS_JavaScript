@@ -1,0 +1,28 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.project{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insert{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.color{
+    display: flex;
+    flex-direction: row;
+}
+
+td{
+    border: 1px solid white;
+}
