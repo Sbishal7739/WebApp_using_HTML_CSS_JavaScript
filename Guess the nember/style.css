@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(106, 179, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper{
+    width: 525px;
+    height: 500px;
+    border-radius: 10px;
+    padding-left: 100px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+#form{
+    font-size: 40px;
+}
+
+#guessField{
+    margin-left: 80px;
+    height: 30px;
+
+}
+
+#subt{
+    margin-left: 115px;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.resultParas{
+    padding: 15px;
+    margin-left: 30PX;
+    font-size: 20px;
+}
+
+ 
+
+
+.lowOrHi h2{
+    /* margin-left: -40px; */
+    margin-top: 20px;
+}
+
+#newGame{
+    /* margin-left: -20px; */
+    margin-top: 20px;
+}
+
