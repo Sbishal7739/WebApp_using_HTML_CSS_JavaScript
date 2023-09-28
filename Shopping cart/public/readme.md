@@ -1,0 +1,1 @@
+I developed a shopping cart application in JavaScript that leverages local storage to persist cart data. This project features functionality for adding, removing, and updating items in the cart, as well as calculating and displaying the total bill. The cart also includes options to clear the cart and proceed to checkout.
