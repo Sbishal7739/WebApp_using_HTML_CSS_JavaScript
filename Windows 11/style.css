@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    /* background-image: url('bg.jpeg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    overflow: hidden;
+}
+
+.taskbar{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content:center;
+    background-color: #f3f3f3;
+    z-index: 110;
+}
+
+.right{
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}
+
+.startmenu{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3 ease-in;
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+
+.icon{
+    margin: 20px ;
+    position: absolute;
+    left: 20px;
+}
+
+.icon div{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
