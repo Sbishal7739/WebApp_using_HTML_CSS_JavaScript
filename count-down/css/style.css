@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/4201bc46251147.6451aec121e84.jpg') center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#tit{
+    margin-top: 270px;
+}
+
+.title {
+    margin-top: 10px;
+    color: rgb(255, 225, 0);
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.title {
+    font-size: 34px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#end-date {
+    font-size: 22px;
+    color: #ffc107; /* Change the color as needed */
+}
+
+/* Style the countdown timer */
+.col {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 50px;
+    height: 50px;
+    background-color: #ffc107; /* Change the background color as needed */
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 16px;
+}
