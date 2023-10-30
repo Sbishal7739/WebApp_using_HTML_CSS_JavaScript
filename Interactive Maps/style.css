@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(88, 152, 204);
+}
+
+#name{
+    background-color: white;
+    position: absolute;
+    width: fit-content;
+    border: 2p solid blue;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
+#time{
+    background-color: white;
+    width: fit-content;
+    border: 2p solid blue;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+svg path{
+    cursor: pointer;
+}
+
+svg path:hover{
+    fill: rgb(41, 41, 182);
+}
+
+/* #nameP{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+
+#timeP{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 20px;
+} */
