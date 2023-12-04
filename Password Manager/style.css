@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@300;400;600;700&family=Roboto+Mono:ital,wght@1,200&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* nav{
+    background-color: #212529;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0 20px;
+}
+
+nav ul{
+    display: flex
+}
+
+nav ul li{
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    margin: 8px 15px;
+}
+
+table, td{
+    border: 2px solid black;
+    margin: 15px 0;
+}
+
+table th, td{
+    padding: 5px;
+}
+
+#website{
+    margin: 15px 2px;
+    border-radius: 3px;
+}
+
+#username{
+    margin: 15px 2px;
+    border-radius: 3px;
+}
+
+#password{
+    margin: 15px 0;
+    border-radius: 3px;
+}
+
+.container{
+    width: 50%;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h1, p{
+    margin: 10px 0;
+}
+
+button[type=submit]{
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #212529;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btnsm{
+    background-color: black;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    cursor: pointer ;
+}
+
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+.alert{
+    display: none;
+} */
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.container {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.alert {
+    background-color: #f2f2f2;
+    color: green;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+form label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.btnsm{
+    background-color: black;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    cursor: pointer ;
+}
+
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+.alert{
+    display: none;
+}

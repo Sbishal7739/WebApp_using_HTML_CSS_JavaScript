@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">PassX</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>Securely manage and organize your passwords with ease! Our password manager is designed to keep your online accounts safe and your login information readily accessible. Here's what you can do</p>
+        <h2>Your Password</h2>
+        <p class="alert">Your password has been copied</p>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+            <!-- <tr>
+                <td>google</td>
+                <td>Google.com</td>
+                <td>google123</td>
+                <td>ok</td>
+            </tr> -->
+        </table>
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" >
+            <br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" >
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <button id="btn" type="submit" value="Submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
