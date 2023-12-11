@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.game-container h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    background-color: #161A30;
+    color: white;
+    height: 100px;
+    line-height: 90px;
+}
+
+.rock-paper-scissor{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+#rock{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#rock img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#rock:hover {
+    background-color: #161A30;
+}
+
+#paper{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#paper img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#paper:hover {
+    background-color: #161A30;
+}
+
+#scissors{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#scissors img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#scissors:hover {
+    background-color: #161A30;
+}
+
+.points{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 70px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.com{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.msg-container{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#msg{
+    background-color: #161A30;
+    color: white;
+    font-size: 40px;
+    display: inline;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
