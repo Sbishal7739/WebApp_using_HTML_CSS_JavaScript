@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #5F6F52;
+}
+
+.container{
+    background-color: #FEFAE0;
+    width: 480px;
+    height: 490px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.amount{
+    margin-top: 20px;
+}
+
+.amount p{
+    font-size: 20px;
+}
+
+.amount input{
+    width: 100%;
+    height: 50px;
+    margin-top: 8px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 2px solid #5F6F52;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 60px;
+}
+
+.from p{
+    font-size: 18px;
+}
+
+.section-counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8.2rem;
+    border: 1 px solid lightgrey;
+    border-radius: 0.5rem;
+    gap: 10px;
+    background-color: #d9e1bf;
+}
+
+.section-counter select{
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+i{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.msg{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#btn{
+    width: 100%;
+    margin-top: 30px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #304D30;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
